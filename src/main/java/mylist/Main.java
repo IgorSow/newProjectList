@@ -1,4 +1,4 @@
-package our.mylist;
+package mylist;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,8 +20,14 @@ public class Main {
         myList.add("sobota");
         myList.add("niedziela");
 
-        logger.error(myList.returnListAsString());
-        logger.error(String.valueOf(myList.getSize()));
+        logger.info(myList.returnListAsString());
+        logger.info(String.valueOf(myList.getSize()));
+        logger.info("size of {}", myList.getSize());
+
+       myList.remove("niedziela");
+
+       logger.info(myList.returnListAsString());
+
 
 
 

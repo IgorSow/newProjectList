@@ -1,4 +1,4 @@
-package our.mylist;
+package mylist;
 
 public class MyElement {
 
@@ -6,7 +6,7 @@ public class MyElement {
     private MyElement nextElement;
 
     public MyElement(String myElementString) {
-        this.myString =myElementString;
+        this.myString = myElementString;
         this.nextElement = null;
     }
 
