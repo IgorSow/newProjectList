@@ -70,15 +70,20 @@ public class MyListIImpl implements MyList {
             }
             temporatyPrev.setNextElement(temporatyNext);
 
-
+            if (lastElement.equals(temporatyCurrent)) {
+                lastElement = temporatyPrev;
+            }
 
         }
-
 
         // usuwanie srodkowego elementu
 
 
         // usuwanie ostatniego elementu
+
+    }
+    public String showFirstandLast(){
+        return firstElement.getMyString() + " "+ lastElement.getMyString();
 
     }
 

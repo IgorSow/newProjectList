@@ -20,13 +20,23 @@ public class Main {
         myList.add("sobota");
         myList.add("niedziela");
 
-        logger.info(myList.returnListAsString());
+
+
+        logger.info("Lista po dodaniu: " + myList.returnListAsString());
         logger.info(String.valueOf(myList.getSize()));
-        logger.info("size of {}", myList.getSize());
+        logger.info("Ilosc elementow {}", myList.getSize());
 
        myList.remove("niedziela");
 
+
+        logger.info("Pokaz pierwszy i ostatni element : " + ((MyListIImpl) myList).showFirstandLast());
+
        logger.info(myList.returnListAsString());
+
+       myList.add("EXTRA DZIEN");
+
+       logger.info(myList.returnListAsString());
+        logger.info("Pokaz pierwszy i ostatni element " + ((MyListIImpl) myList).showFirstandLast());
 
 
 
