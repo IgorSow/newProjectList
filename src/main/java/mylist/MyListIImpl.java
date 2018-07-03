@@ -93,7 +93,6 @@ public class MyListIImpl implements MyList {
 
             try {
 
-
             while (temporatyIterator < numberOfElement){
 
                 if (temporatyIterator == numberOfElement){

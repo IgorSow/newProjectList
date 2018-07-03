@@ -44,7 +44,7 @@ public class Main {
 
 
 
-        logger.info(myList.getElementAt(67));
+        logger.info(myList.getElementAt(213));
 
         logger.info("TUTAJ PROGRAM DZIALA DALEJ");
 
