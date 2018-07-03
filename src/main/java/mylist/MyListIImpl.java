@@ -1,5 +1,7 @@
 package mylist;
 
+import myStack.MyStackElem;
+
 public class MyListIImpl implements MyList {
 
     private MyElement firstElement;
@@ -82,6 +84,37 @@ public class MyListIImpl implements MyList {
         // usuwanie ostatniego elementu
 
     }
+
+    @Override
+    public String getElementAt(int numberOfElement) throws Exception{
+
+            int temporatyIterator = 1;
+            MyElement temporaryElement = firstElement;
+
+            try {
+
+
+            while (temporatyIterator < numberOfElement){
+
+                if (temporatyIterator == numberOfElement){
+                    return temporaryElement.getMyString();
+                }else{
+                    temporaryElement= temporaryElement.getNextElement();
+                                    }
+                temporatyIterator++;
+            }
+            return temporaryElement.getMyString();
+            }
+            catch (Exception e){
+                return firstElement.getMyString();
+            }
+        }
+
+
+
+
+
+
     public String showFirstandLast(){
         return firstElement.getMyString() + " "+ lastElement.getMyString();
 

@@ -5,6 +5,7 @@ public interface MyList {
     public String returnListAsString();
     public int getSize();
     public void remove(String element);
+    public String getElementAt(int numberOfElement) throws Exception;
 
 
 }
