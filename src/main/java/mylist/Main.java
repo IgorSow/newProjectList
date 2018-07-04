@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-
+        logger.info("test");
         MyList myList = new MyListIImpl();
         myList.add("poniedzialek");
         myList.add("wtorek");
@@ -43,10 +43,9 @@ public class Main {
 //        logger.info("Pokaz pierwszy i ostatni element " + ((MyListIImpl) myList).showFirstandLast());
 
 
+        System.out.println(myList.getElementAt(213));
 
-        logger.info(myList.getElementAt(213));
-
-        logger.info("TUTAJ PROGRAM DZIALA DALEJ");
+//        System.out.println("TUTAJ PROGRAM DZIALA DALEJ");
 
     }
 

@@ -37,7 +37,7 @@ public class CinemaHall {
     }
     public void bookPlace(int row,int col){
 
-        hall[row][col] = " BOOKED";
+        hall[row][col] = "BOOKED";
     }
 
 
