@@ -19,7 +19,7 @@ public class CinemaHall {
         for (int i=0; i < hall.length; i++ ){
             for (int j=0 ; j <hall[i].length; j++){
 
-                hall[i][j] = "WOLNE";
+                hall[i][j] = "FREE";
             }
         }
     }
@@ -28,11 +28,18 @@ public class CinemaHall {
         for (int i=0; i < hall.length; i++ ){
 
             System.out.println(" ");
-            System.out.print("Rzad" + i);
+            System.out.print("ROW\t" + i);
             for (int j=0 ; j <hall[i].length; j++){
 
-                System.out.print(" " + hall[i][j]);
+                System.out.print("\t" + hall[i][j]);
             }
         }
     }
+    public void bookPlace(int row,int col){
+
+        hall[row][col] = " BOOKED";
+    }
+
+
+
 }
