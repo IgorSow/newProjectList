@@ -43,7 +43,7 @@ public class Main {
 //        logger.info("Pokaz pierwszy i ostatni element " + ((MyListIImpl) myList).showFirstandLast());
 
 
-        System.out.println(myList.getElementAt(213));
+        logger.error(myList.getElementAt(4));
 
 //        System.out.println("TUTAJ PROGRAM DZIALA DALEJ");
 

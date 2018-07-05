@@ -9,7 +9,6 @@ public class Cash {
     public void setBalance(double balance) {
         this.balance = balance;
     }
-
     double balance;
 
 }
