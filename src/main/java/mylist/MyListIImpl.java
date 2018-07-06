@@ -60,20 +60,20 @@ public class MyListIImpl implements MyList {
             temporaty.setNextElement(null);
 
         }else {
-            MyElement temporatyPrev = firstElement;
-            MyElement temporatyCurrent = firstElement.getNextElement();
-            MyElement temporatyNext = temporatyCurrent.getNextElement();
+            MyElement temporaryPrev = firstElement;
+            MyElement temporaryCurrent = firstElement.getNextElement();
+            MyElement temporaryNext = temporaryCurrent.getNextElement();
 
 
-            while (!temporatyCurrent.getMyString().equals(element)) {
-                temporatyPrev = temporatyCurrent;
-                temporatyCurrent = temporatyCurrent.getNextElement();
-                temporatyNext = temporatyCurrent.getNextElement();
+            while (!temporaryCurrent.getMyString().equals(element)) {
+                temporaryPrev = temporaryCurrent;
+                temporaryCurrent = temporaryCurrent.getNextElement();
+                temporaryNext = temporaryCurrent.getNextElement();
             }
-            temporatyPrev.setNextElement(temporatyNext);
+            temporaryPrev.setNextElement(temporaryNext);
 
-            if (lastElement.equals(temporatyCurrent)) {
-                lastElement = temporatyPrev;
+            if (lastElement.equals(temporaryCurrent)) {
+                lastElement = temporaryPrev;
             }
 
         }
@@ -93,7 +93,7 @@ public class MyListIImpl implements MyList {
 
             try {
 
-            while (temporatyIterator < numberOfElement){
+            while (temporatyIterator <= numberOfElement){
 
                 if (temporatyIterator == numberOfElement){
                     return temporaryElement.getMyString();

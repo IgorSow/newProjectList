@@ -1,5 +1,5 @@
 
+Jsquid:S1444",Make this "public static logger" field final(Ìå”8§ù‡Æ,
 ~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬‰éµûÿÿÿÿ8¿êòŒÆ,
-Jsquid:S1444",Make this "public static logger" field final(ÒÅè¥8§ù‡Æ,
+‡"squid:ClassVariableVisibilityCheck"RMake logger a static final constant or non-public and provide accessors if needed.(Ìå”8§ù‡Æ,
 osquid:S1192"LDefine a constant instead of duplicating this literal "My Stack {}" 4 times.(¶¥Ûşÿÿÿÿ8§ù‡Æ,
-‡"squid:ClassVariableVisibilityCheck"RMake logger a static final constant or non-public and provide accessors if needed.(ÒÅè¥8§ù‡Æ,

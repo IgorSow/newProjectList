@@ -35,7 +35,8 @@ public class Main {
 //
 //        logger.info("Pokaz pierwszy i ostatni element : " + ((MyListIImpl) myList).showFirstandLast());
 //
-//       logger.info(myList.returnListAsString());
+
+        System.out.println(myList.returnListAsString());
 //
 //       myList.add("EXTRA DZIEN");
 //
@@ -43,7 +44,7 @@ public class Main {
 //        logger.info("Pokaz pierwszy i ostatni element " + ((MyListIImpl) myList).showFirstandLast());
 
 
-        logger.error(myList.getElementAt(4));
+        logger.error(myList.getElementAt(78));
 
 //        System.out.println("TUTAJ PROGRAM DZIALA DALEJ");
 
