@@ -31,7 +31,7 @@ public class Main {
 //        logger.error(myListTwoWay.showFromLastToFirst());
 
 
-        System.out.println(" SUPEasdR");
+        System.out.println("SUPEasdR");
 
         myListTwoWay.removeElementAfterNumber(2);
 

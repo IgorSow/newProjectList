@@ -20,15 +20,11 @@ public class Main {
         myList.add("sobota");
         myList.add("niedziela");
 
-        // chcemy utworzyc wlasna liste
-        //1.dodac do niej wartosci kolejno dni tygodnia
-        //2. wyswietlenie wszystkich elementow
-        //3 zwrocenie rozmiaru listy
-        //4.usuniecie elementu z listy
 
-//        logger.info("Lista po dodaniu: " + myList.returnListAsString());
-//        logger.info(String.valueOf(myList.getSize()));
-//        logger.info("Ilosc elementow {}", myList.getSize());
+
+        logger.info("Lista po dodaniu: " + myList.returnListAsString());
+        logger.info(String.valueOf(myList.getSize()));
+        logger.info("Ilosc elementow {}", myList.getSize());
 //
 //       myList.remove("niedziela");
 //
